@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f3f6;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.delivery-heading{
+    display: flex;
+    gap: 10px;
+}
+.add-adress{
+    display: flex;
+    gap: 10px;
+}
+.delivery-heading{
+    margin-top: 15px;
+    height: 45px;
+    background-color: #2874f0;
+    align-items: center;
+    color: white;
+    padding: 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.box-no{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: #2874f0;
+
+}
+.delivery-discription{
+    padding: 20px;
+    background-color: #f5faff
+}
+.handle{
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.handle-block{
+    width: 50%;
+}
+.handle-card{
+    padding: 15px 25px;
+    width: 100%;
+}
+.head-dis{
+    width: 70%;
+}
+.address-type{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;   
+}
+.type-home{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+.btn-form-2 button{ 
+    margin-top: 15px;
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+}
+.btn-form button{
+    background-color: #2874f0;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    margin-top: 15px;
+}
+.radio input{
+    width: 18px;
+    height: 18px;
+}
+.type-home input{
+    width: 18px;
+    height: 18px;
+}
+.delivery-address{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.chechout-body{
+    width: 70%;
+}
+.block-container {
+    display: flex;
+    gap: 15px;
+}
+.product-deliver {
+    height: fit-content;
+    width: 30%;
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.price-details{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.del-pre{
+    display: flex;
+    gap: 4px;
+}
+.cross{
+    text-decoration: line-through;
+}
+.head-pro{
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px;
+}
+.foot-pro{
+    border-top: 1px solid #f0f0f0;
+    padding: 20px;
+    color: #388e3c;
+}
+.detail-border{
+    border-bottom: 2px dotted #f0f0f0;
+}
+.price-box{
+    padding:0px 40px;
+}
+.summary-box {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #2874f0;
+}
+
+.summary-content p {
+    margin: 5px 0;
+}
+
+.edit-address {
+    background: #ff5722;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.summary-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.summary-details{
+    border-top: 1px solid #f0f0f0;
+    padding: 20px;
+    background-color: #f5faff;
+}
+.order-img{
+    width: 20%;
+}
+.order-img img{
+    object-fit: cover;
+}
+.pricing-card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0px;
+}
+.main-crossing{
+    font-weight: bold;
+    font-size: larger;
+}
+.quantity-container {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quantity-btn {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-btn:hover {
+    background: #ccc;
+}
+
+.quantity-input {
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.sum-des{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inc-dec{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.btn-delete{
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.continue-btn-class{
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #f5faff;
+    text-align: right;
+}
+.continue-btn{
+    padding: 15px 45px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fb641b;
+    border: none;
+}
+.pay{
+    background-color: #f5faff;
+}
+.pay-method{
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.pay-radio{
+    height: 18px;
+    width: 18px;
+}
